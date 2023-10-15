@@ -17,11 +17,7 @@ const Detail = () => {
 useEffect(getProduct, [id]);
   
 
-//useEffect(() => {
-    // Aquí debes hacer una nueva llamada a la API para obtener los detalles del producto usando el ID
-    // Puedes usar una URL similar a `http://localhost:3003/products/detalle/${id}`
-    // y luego actualizar el estado con la información del producto obtenida
-  
+
   //}, [id]);
 
   return (
